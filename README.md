@@ -10,7 +10,7 @@ class Guess {
 			int n= in.nextInt();
     int r=(int)(Math.random() * 10) + 1;
 			if (n < 1 || n > 10) {
-			System.out.print("Invalid input! Enter a number ranging from 1 to 10.");
+			System.out.print("\nInvalid input! Enter a number ranging from 1 to 10.");
 			} else if (n != r) {
 				System.out.println("\nYou have guessed the wrong number! ");
 				System.out.println("Your Number: " + n + " | Actual number: " + r);
